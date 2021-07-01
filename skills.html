@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skills</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script  src="script.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body id="skills">
+        <h1>Skills</h1>
+        <ul type="none" id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="education.html">Education</a></li>
+        </ul>
+        <table id="table">
+            <tr>
+                <th colspan="4">First Year Course</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Terms</td>
+                <td colspan="3">Subjects</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>Programming/Development</td>
+                <td>Others</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Term1</td>
+                <td>DS</td>
+                <td rowspan="2">CPro</td>
+                <td rowspan="2">None</td>
+            </tr>
+            <tr>
+                <td>RA</td>
+            </tr>
+            <tr>
+                <td>Term2</td>
+                <td>LA</td>
+                <td>DSA</td>
+                <td>DSM</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Term3</td>
+                <td rowspan="2">Probability and Statistics</td>
+                <td>CSO</td>
+                <td rowspan="2">VE</td>
+            </tr>
+            <tr>
+                <td>ISS</td>
+            </tr>
+        </table>
+        <form>
+        <p> Name: <input type="text" placeholder="Enter your name"></p>
+        <p> Skill: <input type="text" placeholder="skill"></p>
+        <label for="level">Level</label>
+        <select id="level">
+            <option value="">Options</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Proficient">Proficient</option>
+        </select>
+        <p><button>Submit</button></p>
+        </form>
+    </body>
+</html>

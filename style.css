@@ -1,0 +1,124 @@
+h1{
+    text-align: center;
+    background-color: #ecea78;
+}
+#index {
+    background-color: #723d46;
+}
+
+#home {
+    background-color: #5c4d7d;
+}
+
+#education {
+    background-color: #789661;
+}
+
+#contact {
+    background-color: coral;
+}
+
+#skills {
+    background-color: lightslategrey;
+}
+
+#achieve {
+    background-color: rgba(143,54,93,0.7);
+}
+
+#navigation {
+    border:2px solid black;
+    background-color: #6a994e;
+    padding: 10px;
+    position: fixed;
+    right:0;
+}
+
+#navigation a:hover{
+    border:5px solid #800f2f
+}
+
+#navigation a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
+li {
+    display: inline-flex;
+}
+
+#profile img:hover {
+    border: 2px solid black;
+}
+
+#profile img {
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+
+#change {
+    margin-left: 3%;
+}
+
+#profile_pics{
+    border: 2px solid black;
+    background-color: white;
+    display: none;
+}
+
+#profile_pics img{
+    height: 100px;
+    width: 100px;
+    margin: 2%;
+}
+
+#ext1, #ext2{
+    height:100px;
+    width: 100px;
+    margin:2%;
+}
+
+#ext1:hover, #ext2:hover {
+    border: 4px solid #6a040f;
+}
+
+#external{
+    font-weight: bold;
+    background-color:white;
+    border: 2px solid black;
+}
+
+.edu{
+    text-decoration: none;
+    background-color: white;
+}
+
+table,td,th,tr {
+    border: 3px solid white;
+    padding:10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+form{
+    margin-top: 40px;
+    border:2px solid #e8e8e4
+}
+
+#pics {
+    height: 300px;
+    width: 300px;
+    float:right;
+    margin-right: 10%;
+}
+#pics:hover{
+    border:3px solid #800f2f
+}
